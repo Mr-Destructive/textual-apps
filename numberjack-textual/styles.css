@@ -1,0 +1,21 @@
+#numbers_tray, #index_tray{
+     layout: horizontal;
+     max-height: 3;
+}
+
+#numbers, #index{
+    width: 1fr;
+    max-width: 1fr;
+    max-height: 5;
+}
+
+#numbers {
+    background: grey;
+    padding: 0;
+    margin: 0;
+    border: black outer;
+}
+
+.inp {
+}
+
