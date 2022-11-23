@@ -68,7 +68,8 @@ class NumberJack(App):
                 self.points += 1
                 self.query_one("#points").update(renderable=str(self.points))
             else:
-                self.query_one("#number_inp").placeholder = "GAME OVER"
+                self.query_one("#number_inp").value = ""
+                self.query_one("#number_inp").placeholder = f"You Scored {self.points} points!"
                 self.points = 0
                 self.query_one("#points").update(renderable=str(self.points))
 
